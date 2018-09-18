@@ -4,11 +4,10 @@ Install MongoDB in Windows.
 
 start mongoDB:
 
-1.  Create Directories in C Drive.
-        a.  C:\data
-        b.  C:\data\db
+1.  Create Directories in C Drive:
+        C:\data and C:\data\db
 2.  Goto the folder: 
-       a. run the mongod.exe
+   run the mongod.exe
        
 GraphQL:
 
