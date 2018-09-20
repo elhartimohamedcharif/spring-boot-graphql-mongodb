@@ -26,7 +26,7 @@ import graphql.servlet.GraphQLErrorHandler;
 public class GraphQLMongoDBApplication 
 {
     public static void main( String[] args ) {
-        System.out.println( "Hi GraphQLMongoDBApplication ...." );
+        System.out.println( "Hi GraphQLMongoDBApplication ........" );
         SpringApplication.run(GraphQLMongoDBApplication.class, args);
         System.out.println("GraphQLMongoDBApplication Started ....");
     }
