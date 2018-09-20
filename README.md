@@ -6,8 +6,9 @@ start mongoDB:
 
 1.  Create Directories in C Drive:
         C:\data and C:\data\db
-2.  Goto the folder: 
-   run the mongod.exe
+2.  Goto the folder: C:\Program Files\MongoDB\Server\3.6\bin>
+
+3.  Run the mongod.exe
        
 GraphQL:
 
