@@ -51,13 +51,13 @@ public class GraphQLMongoDBApplication
     @Bean
 	public CommandLineRunner demo(final AuthorRepository authorRepository, final BookRepository bookRepository) {
 		return (args) -> {
-			int bookNumber = 71809000;
-			for(int i=1;i<=1000;i++) {
-				Author author = new Author("Siva Rama"+i, "Krishna"+i);
-				authorRepository.save(author);
-				bookNumber++;
-				bookRepository.save(new Book("Spring Boot MongoDB"+i, "00"+bookNumber, 728, author));
-			}
+//			int bookNumber = 71809000;
+//			for(int i=1;i<=1000;i++) {
+//				Author author = new Author("Siva Rama"+i, "Krishna"+i);
+//				authorRepository.save(author);
+//				bookNumber++;
+//				bookRepository.save(new Book("Spring Boot MongoDB"+i, "00"+bookNumber, 728, author));
+//			}
 			
 			//authorRepository.save(author);
 

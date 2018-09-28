@@ -31,6 +31,7 @@ public class BookResource {
 	@RequestMapping(value="{id}",method=RequestMethod.GET)
 	@ResponseBody
 	public Book findBookById (@PathVariable String id){
+		System.out.println("calling findBookById...");
 		Book book = bookService.findById(id)	;
 		return book;
 	}
